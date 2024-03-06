@@ -3,5 +3,6 @@ The Product Based RISC-V Skilling Program is a  six-week course that embarks on 
 
 
 Week1
-1)Installed VDI file
-2)write c program in godblot
+1. Installed VDI file
+
+2. write c program in godblot
