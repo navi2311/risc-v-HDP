@@ -38,7 +38,12 @@ int main() {
         printf("Counter value is %d\n", counter_u);
         counter_u += 1;
     }
+
+
     
+
     return 0;
 }
 ```
+
+<img width="1225" alt="couinter_c_assembly" src="https://github.com/navi2311/risc-v-HDP/assets/134842758/0d05939c-dbdd-407b-9fd9-51bca1a603f5">
