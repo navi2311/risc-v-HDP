@@ -53,6 +53,11 @@ Installed vim to edit the files
 :q  -----to quit from vim
 
 ```
+desgin
+https://github.com/navi2311/risc-v-HDP/blob/main/week1/part_b/alu.v
+
+test bench
+https://github.com/navi2311/risc-v-HDP/blob/main/week1/part_b/alu_tb.v
 ```
 ~iverilog -o test_c alu.v alu.tb
 ~.test_c  //to dump vcd file as opuput
