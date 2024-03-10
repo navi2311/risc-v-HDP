@@ -1,0 +1,35 @@
+$date
+	Sun Mar 10 13:35:14 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module alu_tb $end
+$var wire 32 ! result [31:0] $end
+$var reg 32 " a [31:0] $end
+$var reg 32 # b [31:0] $end
+$var reg 2 $ sel [1:0] $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx $
+b1 #
+b1010 "
+b0 !
+$end
+#50
+b1011 !
+b0 $
+#60
+b1010 !
+b10 $
+#70
+b11 $
+#80
+b1001 !
+b1 $
+#180
