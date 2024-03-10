@@ -50,3 +50,34 @@ int main() {
 
 ###Matrix Multiplication
 
+```
+#include <stdio.h>
+
+int main() {
+    int arr1[3][3] = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
+    int arr2[3][3] = {{9, 8, 7}, {6, 5, 4}, {3, 2, 1}};
+    int result[3][3] = {{0, 0, 0}, {0, 0, 0}, {0, 0, 0}};
+
+    for (int i = 0; i < 3; i++) {
+        for (int j = 0; j < 3; j++) {
+            for (int k = 0; k < 3; k++) {
+                result[i][j] += arr1[i][k] * arr2[k][j];
+            }
+        }
+    }
+
+    printf("Value of matrix is:\n");
+    for (int i = 0; i < 3; i++) {
+        for (int j = 0; j < 3; j++) {
+            printf("%d ", result[i][j]);
+        }
+        printf("\n");
+    }
+
+    return 0;
+}
+```
+<img width="1243" alt="matrix_c_assembly" src="https://github.com/navi2311/risc-v-HDP/assets/134842758/5bedb124-90f5-42f7-836e-f3e610f35520">
+
+
+
