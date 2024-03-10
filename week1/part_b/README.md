@@ -1,5 +1,8 @@
 # Task1
 ## Calculate - 10-19 , 20+30 , 36-12 in signed, 1s and 2s complement.
+'''
+https://github.com/navi2311/risc-v-HDP/blob/main/week1/part_b/assignment2_numerical%20cal.pdf
+'''
 
 ## Design an 4-bit ALU in c code and verify it using gcc
 ```
