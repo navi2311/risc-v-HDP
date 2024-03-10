@@ -7,6 +7,6 @@ The Product Based RISC-V Skilling Program is a  six-week course that embarks on 
 
 
 ## Week1 
-1. representation of negative numbers using signed,1's complement and 2's complement have been revised.
-2. has assigned two assignments.
+1. representation of negative numbers using signed,1's complement and 2's complement and problems have been revised.
+2. Assignment : C code to assembly level
 
