@@ -1,7 +1,7 @@
 # C Code to Assembly Level
 ### Hello World
 Hello World Program in c
-'''
+```
 
 #include <stdio.h>
 // main function -
@@ -12,4 +12,5 @@ int main()
 printf("Hello World");
 return 0;
 }
-'''
+
+```
