@@ -48,8 +48,8 @@ int main() {
 
 ## Design the same 4-bit ALU code in verilog and verify it using iverilog and gtkwave
 
-'''
+```
 :wa ----to save file
 :q  -----to quit from vim
 
-'''
+```
