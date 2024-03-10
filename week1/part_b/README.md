@@ -47,9 +47,14 @@ int main() {
 
 
 ## Design the same 4-bit ALU code in verilog and verify it using iverilog and gtkwave
-
+Installed vim to edit the files
 ```
 :wa ----to save file
 :q  -----to quit from vim
 
+```
+```
+~iverilog -o test_c alu.v alu.tb
+~.test_c  //to dump vcd file as opuput
+~gtkwave
 ```
