@@ -1,5 +1,6 @@
 # Task1
 ## Calculate - 10-19 , 20+30 , 36-12 in signed, 1s and 2s complement.
+
 ## Design an 4-bit ALU in c code and verify it using gcc
 ```
 #include <stdio.h>
