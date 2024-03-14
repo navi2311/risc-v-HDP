@@ -4,5 +4,11 @@
   sudo apt install leafpad
   ```
 [c code](sum1toN.c)
+the code is executed using `gcc` complier 
+```
+
+
+
+```
 
   
