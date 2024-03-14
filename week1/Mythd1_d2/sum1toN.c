@@ -14,7 +14,7 @@ int main()
         sum += i;
     }
 
-    printf("Sum of first %d natural numbers = %d", n, sum);
+    printf("Sum of first %d natural numbers = %d \n ", n, sum);
 
     return 0;
 }
