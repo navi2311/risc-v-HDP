@@ -1,5 +1,5 @@
 # write a c program to cal sum from 1 tom N
-  to write the c program installed leafpad 
+  to write the c program installed leafpad text editor
   ```
   sudo apt install leafpad
   ```
