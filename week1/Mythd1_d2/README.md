@@ -3,6 +3,6 @@
   ```
   sudo apt install leafpad
   ```
-[c code](/sum1toN.c)
+[c code](sum1toN.c)
 
   
