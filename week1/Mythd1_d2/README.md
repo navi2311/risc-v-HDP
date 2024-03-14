@@ -19,4 +19,11 @@ will always generates executable file name  a.out
 ```
 <img width="329" alt="sum1ton" src="https://github.com/navi2311/risc-v-HDP/assets/134842758/3f115215-42a7-4c58-b2e7-88a119c48e78">
 
-  
+# convert into assembly lanuage using riscv complier   
+```
+riscv64-unknown-elf-gcc -o1 -mabi=lp64 -march=rv64I -o result_file.o file.c
+```
+to see the dumped assembly file 
+```
+riscv64-unknown-elf-objdump -d result_file.o | less
+```
