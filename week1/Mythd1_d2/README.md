@@ -1,8 +1,5 @@
-# write a c program to cal sum from 1 tom N
-  to write the c program installed leafpad text editor
-  ```
-  sudo apt install leafpad
-  ```
+# Tool Chain flow of Riscv used in Workshop
+## write a  c program and complice iot using gcc complier
 [c code](sum1toN.c)
  is executed using `gcc` complier 
 ```
@@ -19,10 +16,16 @@ will always generates executable file name  a.out
 ```
 <img width="329" alt="sum1ton" src="https://github.com/navi2311/risc-v-HDP/assets/134842758/3f115215-42a7-4c58-b2e7-88a119c48e78">
 
-# convert into assembly lanuage using riscv complier   
-```
+## convert c program into  get object files (.o files) usng riscv gcc complier . 
+    These object files contain machine code specific to the RISC-V architecture.
+  
+`
 riscv64-unknown-elf-gcc -o1 -mabi=lp64 -march=rv64i -o result_file.o file.c
-```
+`
+`
+riscv64-unknown-elf-gcc -ofast -mabi=lp64 -march=rv64i -o result_file.o file.c
+`
+## Understanding Machine Code by converting into assembly lanuage  using `objdump`
 to see the dumped assembly file 
 ```
 riscv64-unknown-elf-objdump -d result_file.o | less
