@@ -33,3 +33,12 @@ to see the dumped assembly file
 ```
 riscv64-unknown-elf-objdump -d result_file.o | less
 ```
+## Simulating Execution with `Spike`
+* spike is a RISC-V ISA simulator. It simulates the execution of RISC-V code on a virtual RISC-V processor.
+* By running code through spike, developers can observe its execution behavior, including instruction execution, memory accesses, and register changes.
+* It provides insights into how code behaves on RISC-V processors without needing real hardware.
+```
+spike pk obj.o
+
+```
+ > spike pk obj.o, Spike will simulate the execution of the binary obj.o as if it were running on a RISC-V processor with a minimal operating system environment provided by the proxy kernel. This allows you to observe the behavior of the binary and its interaction with the simulated environment without needing real hardware.
