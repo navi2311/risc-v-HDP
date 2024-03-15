@@ -42,3 +42,8 @@ spike pk obj.o
 
 ```
  > spike pk obj.o, Spike will simulate the execution of the binary obj.o as if it were running on a RISC-V processor with a minimal operating system environment provided by the proxy kernel. This allows you to observe the behavior of the binary and its interaction with the simulated environment without needing real hardware.
+> The -d flag is used to enable debugging features in spike.When debugging is enabled, spike will typically halt execution at the beginning of the program, allowing you to step through the program's execution, set breakpoints, examine memory and registers, etc., using a debugger interface.
+The -d flag is useful for debugging RISC-V binaries, especially when you need to inspect the execution flow or diagnose issues in the program.
+`
+spike -d pk obj.o
+`
