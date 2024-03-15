@@ -21,7 +21,7 @@ will always generates executable file name  a.out
 
 # convert into assembly lanuage using riscv complier   
 ```
-riscv64-unknown-elf-gcc -o1 -mabi=lp64 -march=rv64I -o result_file.o file.c
+riscv64-unknown-elf-gcc -o1 -mabi=lp64 -march=rv64i -o result_file.o file.c
 ```
 to see the dumped assembly file 
 ```
