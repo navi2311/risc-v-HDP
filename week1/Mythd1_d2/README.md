@@ -26,6 +26,9 @@ riscv64-unknown-elf-gcc -o1 -mabi=lp64 -march=rv64i -o result_file.o file.c
 riscv64-unknown-elf-gcc -ofast -mabi=lp64 -march=rv64i -o result_file.o file.c
 `
 ## Understanding Machine Code by converting into assembly lanuage  using `objdump`
+. Machine code is not human-readable, so understanding its behavior directly is challenging.
+. objdump is a tool that disassembles object files, converting machine code into assembly language instructions.
+. Using objdump, developers can examine the assembly code generated from their source code.
 to see the dumped assembly file 
 ```
 riscv64-unknown-elf-objdump -d result_file.o | less
