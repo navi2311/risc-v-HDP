@@ -1,5 +1,6 @@
+It is a part of Riscv myth workshop 
 <details>
- <summary>Tool Chain flow of Riscv used in Workshop</summary>
+ <summary>Day1)Tool Chain flow of Riscv used in Workshop</summary>
  
  <details>
   <summary>1) write a  c program and complie it using gcc complier</summary>
@@ -72,7 +73,7 @@ The -d flag is useful for debugging RISC-V binaries, especially when you need to
 </details>
 </details>
 <details>
- <summary>ABI</summary>
+ <summary>Day2) ABI</summary>
  
 </details>
 
