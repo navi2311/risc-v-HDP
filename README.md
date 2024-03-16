@@ -1,5 +1,6 @@
-# risc-v-HDP
-The Product Based RISC-V Skilling Program is a  six-week course that embarks on a journey through the RISC-V Instruction Set Architecture (ISA), aimed at providing both a theoretical foundation and hands-on experience.
+<details>
+  <summaty>risc-v-HDP</summaty>summary>
+    The Product Based RISC-V Skilling Program is a  six-week course that embarks on a journey through the RISC-V Instruction Set Architecture (ISA), aimed at providing both a theoretical foundation and hands-on experience.
 
 -In these course we will understand how apps software will be converted binary .
 - Then We will understand how binary is passed into the hardware.
@@ -17,5 +18,5 @@ The Product Based RISC-V Skilling Program is a  six-week course that embarks on 
 
 
 ## Week2
-1. Cpu performace 
-
+1. Cpu performace
+</details>
