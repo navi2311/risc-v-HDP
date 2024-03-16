@@ -1,5 +1,7 @@
-# Tool Chain flow of Riscv used in Workshop
-## write a  c program and complice iot using gcc complier
+<details>
+  <sumary>Tool Chain flow of Riscv used in Workshop</sumary>
+  <details></details>
+ write a  c program and complice iot using gcc complier
 [c code](sum1toN.c)
  is executed using `gcc` complier 
 ```
@@ -48,6 +50,7 @@ spike pk obj.o
 ```
 spike -d pk obj.o
 ```
+</details>
 
 > The -d flag is used to enable debugging features in spike.When debugging is enabled, spike will typically halt execution at the beginning of the program, allowing you to step through the program's execution, set breakpoints, examine memory and registers, etc., using a debugger interface.
 The -d flag is useful for debugging RISC-V binaries, especially when you need to inspect the execution flow or diagnose issues in the program.
