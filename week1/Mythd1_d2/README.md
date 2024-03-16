@@ -1,6 +1,8 @@
 <details>
  <summary>Tool Chain flow of Riscv used in Workshop</summary>
- 
+ <details>
+ <summary>Tool Chain flow of Riscv used in Workshop</summary>
+  
  ### 1) write a  c program and complice iot using gcc complier
     [c code](sum1toN.c)
      is executed using `gcc` complier 
@@ -16,7 +18,8 @@
     ` gcc -wall -o errorlog f.c `
   
     ```
-<img width="329" alt="sum1ton" src="https://github.com/navi2311/risc-v-HDP/assets/134842758/3f115215-42a7-4c58-b2e7-88a119c48e78">
+ <img width="329" alt="sum1ton" src="https://github.com/navi2311/risc-v-HDP/assets/134842758/3f115215-42a7-4c58-b2e7-88a119c48e78">
+ </details>
 
 ## convert c program into  get object files (.o files) usng riscv gcc complier . 
     These object files contain machine code specific to the RISC-V architecture.
