@@ -33,6 +33,7 @@
  riscv64-unknown-elf-gcc -ofast -mabi=lp64 -march=rv64i -o result_file.o file.c
  `
 </details>
+<details>
 ## Understanding Machine Code by converting into assembly lanuage  using `objdump`
 * Machine code is not human-readable, so understanding its behavior directly is challenging.
 * objdump is a tool that disassembles object files, converting machine code into assembly language instructions.
@@ -41,6 +42,8 @@ to see the dumped assembly file
 ```
 riscv64-unknown-elf-objdump -d result_file.o | less
 ```
+</details>
+<details>
 ## Simulating Execution with `Spike`
 * spike is a RISC-V ISA simulator. It simulates the execution of RISC-V code on a virtual RISC-V processor.
 * By running code through spike, developers can observe its execution behavior, including instruction execution, memory accesses, and register changes.
@@ -60,5 +63,5 @@ spike -d pk obj.o
 
 > The -d flag is used to enable debugging features in spike.When debugging is enabled, spike will typically halt execution at the beginning of the program, allowing you to step through the program's execution, set breakpoints, examine memory and registers, etc., using a debugger interface.
 The -d flag is useful for debugging RISC-V binaries, especially when you need to inspect the execution flow or diagnose issues in the program.
-
+</details>
 </details>
