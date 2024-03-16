@@ -20,7 +20,9 @@
     ```
  <img width="329" alt="sum1ton" src="https://github.com/navi2311/risc-v-HDP/assets/134842758/3f115215-42a7-4c58-b2e7-88a119c48e78">
  </details>
-
+ <details>
+ <summary> riscv gcc complier</summary>
+ 
 ## convert c program into  get object files (.o files) usng riscv gcc complier . 
     These object files contain machine code specific to the RISC-V architecture.
   
@@ -30,6 +32,7 @@ riscv64-unknown-elf-gcc -o1 -mabi=lp64 -march=rv64i -o result_file.o file.c
 `
 riscv64-unknown-elf-gcc -ofast -mabi=lp64 -march=rv64i -o result_file.o file.c
 `
+</details>
 ## Understanding Machine Code by converting into assembly lanuage  using `objdump`
 * Machine code is not human-readable, so understanding its behavior directly is challenging.
 * objdump is a tool that disassembles object files, converting machine code into assembly language instructions.
