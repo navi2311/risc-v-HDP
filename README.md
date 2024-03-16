@@ -25,3 +25,5 @@
 ## Week2
 1. Cpu performace
 </details>
+<details>
+  <summary>Software_installation</summary>
