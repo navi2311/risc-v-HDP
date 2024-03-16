@@ -1,9 +1,11 @@
 <details>
  <summary>Tool Chain flow of Riscv used in Workshop</summary>
+ 
  <details>
-  <summary>write a  c program and complice iot using gcc complier</summary>
+  <summary>1) write a  c program and complie it using gcc complier</summary>
   
-  ### 1) write a  c program and complice iot using gcc complier
+  
+  ###  write a  c program and complice iot using gcc complier
      [c code](sum1toN.c)
       is executed using `gcc` complier 
      ```
@@ -21,7 +23,7 @@
   <img width="329" alt="sum1ton" src="https://github.com/navi2311/risc-v-HDP/assets/134842758/3f115215-42a7-4c58-b2e7-88a119c48e78">
  </details>
  <details>
-  <summary> riscv gcc complier</summary>
+  <summary>2) riscv gcc complier</summary>
  
  ## convert c program into  get object files (.o files) usng riscv gcc complier . 
     These object files contain machine code specific to the RISC-V architecture.
@@ -34,7 +36,8 @@
  `
 </details>
 <details>
-  <summary>objdump</summary>
+  <summary>3) objdump</summary>
+ 
  ## Understanding Machine Code by converting into assembly lanuage  using `objdump`
  * Machine code is not human-readable, so understanding its behavior directly is challenging.
  * objdump is a tool that disassembles object files, converting machine code into assembly language instructions.
@@ -45,7 +48,8 @@
  ```
 </details>
 <details>
- <summary>spike</summary>
+ <summary> 4) spike</summary>
+ 
  ## Simulating Execution with `Spike`
  * spike is a RISC-V ISA simulator. It simulates the execution of RISC-V code on a virtual RISC-V processor.
  * By running code through spike, developers can observe its execution behavior, including instruction execution, memory accesses, and register changes.
