@@ -1,7 +1,7 @@
 <details>
  <summary>Tool Chain flow of Riscv used in Workshop</summary>
  <details>
- <summary>Tool Chain flow of Riscv used in Workshop</summary>
+ <summary>write a  c program and complice iot using gcc complier</summary>
   
  ### 1) write a  c program and complice iot using gcc complier
     [c code](sum1toN.c)
