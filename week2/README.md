@@ -1,5 +1,8 @@
 <details>
   <summary>Week 2</summary>
   
-    Content for Week 2 goes here.
+    <details>
+      <summary>1)uinderstanding how to measure CPU performance</summary>
+      //conect of cpy
+      </details>
 </details>
