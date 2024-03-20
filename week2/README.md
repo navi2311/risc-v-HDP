@@ -22,5 +22,13 @@ Note: all C programs are available in
   riscv64-unknown-elf-gcc -march=rv32i -mabi=ilp32 -ffreestanding -nostdlib -o ./output.o counter.c
   ```
   Note:make sure to remove include,print f statemnts
-[object file geneated using riscv64 gcc](../week1/part_a/output.o)
+
+
+
+  Now 
+ ```
+ riscv64-unknown-elf-objdump -d -r output.o >counter.txt
+
+ ```
+[assembly code for counter](../week1/counter.asm.png)
 #### Measure CPU performance of all the programs mentioned above using either Godbolt or RISC-V disassembler.
