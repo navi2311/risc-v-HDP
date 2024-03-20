@@ -19,6 +19,7 @@ Note: all C programs are available in
 ####  RISCV Compiler
  1)Counter
   ```   
-  riscv64-unknown-elf-gcc -o1 -mabi=lp64 -march=rv64i -o counter.o counter.c 
-  ```  
+  riscv64-unknown-elf-gcc -march=rv32i -mabi=ilp32 -ffreestanding -nostdlib -o ./output.o counter.c
+  ```
+[object file geneated using riscv64 gcc](../week1/part_a/output.o)
 #### Measure CPU performance of all the programs mentioned above using either Godbolt or RISC-V disassembler.
