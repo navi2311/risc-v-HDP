@@ -17,7 +17,8 @@
     <summary>3) Task 3</summary>
     
     - Verify all the C code (counter, matrix multiplication, ALU code) using RISC-V compiler and spike output.
-    Note: all c program are avaliable in [week1_parta](../week1/part_a)
+    Note: all c program are avaliable in [Counter C Program](../week1/part_a/counter.c)
+
       1) Counter
       
       2) Matrix Multiplication
