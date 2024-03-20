@@ -1,20 +1,16 @@
-<details>
-  <summary>Week 2</summary>
-  
-  <details>
-    <summary>1) Understanding how to measure CPU performance</summary>
-    
+### 1) Understanding how to measure CPU performance
+    ```
     Content related to measuring CPU performance goes here.
-  </details>
+    ```
   
-  <details>
-    <summary>2) RISC-V architecture</summary>
-    
+
+### 2) RISC-V architecture
+    ```
     Content related to RISC-V architecture goes here.
-  </details>
+
   
-  <details>
-    <summary>3) Task 3</summary>
+   ```
+ ### 2) RISC-V architecture
     
     - Verify all the C code (counter, matrix multiplication, ALU code) using RISC-V compiler and spike output.
     Note: all c program are available in 
@@ -26,5 +22,4 @@
       3) [ALU](../week1/part_a/alu.c)
       
     ## Measure CPU performance of all the programs mentioned above using either Godbolt or RISC-V disassembler.
-  </details>
-</details>
+ 
