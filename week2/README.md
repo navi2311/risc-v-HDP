@@ -16,11 +16,15 @@
     
     - Verify all the c code (counter, matrix multiplication, ALU code using RISC-V compiler and spike output.
 
-      * 1)Counter
-      * 2)Matrix Multiplication
-      * 3) ALU 
+      1)Counter
+      [c program]()
+
+          
+       2)Matrix Multiplication
+     3) ALU 
         
     ##   Measure CPU performance of all the programs mentioned above using either godbolt or RISC-V disassembler.
+    
 
   </details>
 </details>
