@@ -10,7 +10,7 @@
 
 Note: all C programs are available in 
 
-1) [Counter](../week1/part_a/counter.c)
+1) [Counter](../week1/part_a/counter.c)  ;[assembly code for counter](../week1/counter.asm.png)
 
 2) [Matrix Multiplication](../week1/part_a/matrix_mul.c)
 
@@ -30,5 +30,5 @@ Note: all C programs are available in
  riscv64-unknown-elf-objdump -d -r output.o >counter.txt
 
  ```
-[assembly code for counter](../week1/counter.asm.png)
+
 #### Measure CPU performance of all the programs mentioned above using either Godbolt or RISC-V disassembler.
