@@ -15,8 +15,8 @@
     <summary>3)Task3</summary>
     
     ## Verify all the c code (counter, matrix multiplication, ALU code using RISC-V 
-compiler and spike output.
-    ## Measure CPU performance of all the programs mentioned above using 
+        compiler and spike output.
+    ##   Measure CPU performance of all the programs mentioned above using 
 either godbolt or RISC-V disassembler.
   </details>
 </details>
