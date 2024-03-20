@@ -10,19 +10,22 @@
   ## Week0
   1. overview of the course and installed vdi file.
   </details>
+  
   <details>
-    
   <summary>week1</summary>
 
   ## Week1 
-1. representation of negative numbers using signed,1's complement and 2's complement and problems have been revised.
-2. Assignment : C code to assembly level
-3. execute a c program  using gcc complier and convert into assemble by riscv complier
-4. debug the instructions using spike simulator.
-5. 
+  1. representation of negative numbers using signed,1's complement and 2's complement and problems have been revised.
+  2. Assignment : C code to assembly level
+  3. execute a c program  using gcc complier and convert into assemble by riscv complier
+  4. debug the instructions using spike simulator.
+  5. 
+  </details>
 
-
-## [Week2](week2)
-1. Cpu performace
-2. RISC-V architecture
-3. coverted c porgrams using riscv gcc complier and cal the performace 
+  <details>
+  <summary>week2</summary>
+  ## [Week2](week2)
+  1. Cpu performace
+  2. RISC-V architecture
+  3. coverted c porgrams using riscv gcc complier and cal the performace 
+  </details>
