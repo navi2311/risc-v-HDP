@@ -17,7 +17,7 @@
 ####   - Verify all the C code (counter, matrix multiplication, ALU code) using RISC-V compiler and spike output.
         ```
         Note: all c program are available in 
-         ```
+        ```
               1) [Counter](../week1/part_a/counter.c)
       
               2) [Matrix Multiplication](../week1/part_a/matrix_multiplication.c)
