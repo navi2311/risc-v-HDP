@@ -17,7 +17,7 @@
     - Verify all the c code (counter, matrix multiplication, ALU code using RISC-V compiler and spike output.
 
       1)Counter
-      [c program]()
+      [c program](week1/part_a/counter.c)
 
           
        2)Matrix Multiplication
