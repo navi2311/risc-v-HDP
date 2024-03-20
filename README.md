@@ -23,8 +23,8 @@
   </details>
 
   <details>
-  <summary>week2</summary>
-  ## [Week2](week2)
+  <summary>[Week2](week2)</summary>
+  ## 
   1. Cpu performace
   2. RISC-V architecture
   3. coverted c porgrams using riscv gcc complier and cal the performace 
