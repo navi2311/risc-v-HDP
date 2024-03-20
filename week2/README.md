@@ -15,5 +15,6 @@ Note: all C programs are available in
 2) [Matrix Multiplication](../week1/part_a/matrix_mul.c)
 
 3) [ALU](../week1/part_b/alu.c)
+#### USing RISCV Compiler
 
 #### Measure CPU performance of all the programs mentioned above using either Godbolt or RISC-V disassembler.
