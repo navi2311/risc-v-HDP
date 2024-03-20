@@ -19,5 +19,8 @@ The Product Based RISC-V Skilling Program is a  six-week course that embarks on 
   ## [Week2](week2)
   1. Cpu performace
   2. RISC-V architecture
-  3. coverted c porgrams using riscv gcc complier and cal the performace 
+  3. coverted c porgrams using riscv gcc complier and cal the performace
+
+  ## [week3](week3)
+  1. Application in c program
   
