@@ -17,13 +17,13 @@
     <summary>3) Task 3</summary>
     
     - Verify all the C code (counter, matrix multiplication, ALU code) using RISC-V compiler and spike output.
-    Note: all c program are avaliable in [week1_parta](https://github.com/navi2311/risc-v-HDP/tree/main/week1/part_a)
+    Note: all c program are available in 
 
-      1) Counter
+      1) [Counter](../week1/part_a/counter.c)
       
-      2) Matrix Multiplication
+      2) [Matrix Multiplication](../week1/part_a/matrix_multiplication.c)
       
-      3) ALU
+      3) [ALU](../week1/part_a/alu.c)
       
     ## Measure CPU performance of all the programs mentioned above using either Godbolt or RISC-V disassembler.
   </details>
