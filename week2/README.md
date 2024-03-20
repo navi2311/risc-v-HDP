@@ -17,5 +17,8 @@ Note: all C programs are available in
 3) [ALU](../week1/part_b/alu.c)
 
 ####  RISCV Compiler
-    
+ 1)Counter
+  ```   
+  riscv64-unknown-elf-gcc -o1 -mabi=lp64 -march=rv64i -o counter.o counter.c 
+  ```  
 #### Measure CPU performance of all the programs mentioned above using either Godbolt or RISC-V disassembler.
