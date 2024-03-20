@@ -24,9 +24,5 @@
 
 ## Week2
 1. Cpu performace
-</details>
-<details>
-  <summary>Software_installation</summary>
-  <details>
-    <summary>spike</summary>
-  </details>
+2. RISC-V architecture
+3. [coverted c porgrams using riscv gcc complier and cal the performace](week2) 
