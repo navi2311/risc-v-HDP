@@ -16,6 +16,6 @@ Note: all C programs are available in
 
 3) [ALU](../week1/part_b/alu.c)
 
-  RISCV Compiler
-
+####  RISCV Compiler
+    
 #### Measure CPU performance of all the programs mentioned above using either Godbolt or RISC-V disassembler.
