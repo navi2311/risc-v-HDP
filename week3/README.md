@@ -5,7 +5,8 @@
 future idea:if object is detected and not moving for a certainh of time would like to add image processing and verify any changes.
 
 ```
-* Main Program: The central logic of your application.
+flow of the program
+
 * Initialize GPIO Pins: Initialization of GPIO pins for sensor input and doorbell output.
 * Read Obstacle Sensor: Continuously check the obstacle sensor for any human presence.
 * Presence Detected for 10 Mins: If the sensor detects continuous human presence for 10 minutes, proceed.
