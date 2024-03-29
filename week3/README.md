@@ -43,7 +43,15 @@ gcc pill.c
 riscv64-unknown-elf-gcc  -Ofast -mabi=lp64 -march=rv64i -o nav.o pill.c
 
 ```
+verified the program using spike 
 ```
 spike pk nav.o
 
 ```
+user time is defined to dispense the pill
+<img width="748" alt="4_SPIKE" src="https://github.com/navi2311/risc-v-HDP/assets/134842758/4f04b241-20e6-450d-9ed3-645e74631da4">
+
+
+<img width="1052" alt="7" src="https://github.com/navi2311/risc-v-HDP/assets/134842758/b831d3b0-2051-4484-9f26-02b9ccd983a9">
+
+
