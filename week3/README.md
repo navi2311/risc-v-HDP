@@ -18,9 +18,7 @@ A smart pill dispenser is a device designed to help individuals manage their med
 6. **Looping Functionality**: The program continuously loops through the countdown process, allowing the user to set the timer repeatedly by pressing the button after each countdown cycle.
 
 Overall, the application provides a basic timer-controlled system with buzzer alerts and a manual reset mechanism, suitable for scenarios where timed events or reminders, such as medication dosages, need to be managed.
-```
-Block diagram 
-```
+
 
 [The pill](pill.c) aspplication is writen in c programming
 
