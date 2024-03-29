@@ -3,7 +3,7 @@
 
 A smart pill dispenser is a device designed to help individuals manage their medication schedules more effectively.
 
-The functionality of the provided application revolves around a timer-controlled system with a buzzer and a dispensing mechanism, likely designed for medication reminders or similar timed events. Here's a breakdown of its functionality:
+ Here's a breakdown of its functionality:
 
 1. **Input Initial Time**: The program starts by prompting the user to input the initial time in the format of hours:minutes:seconds. This sets the countdown timer's initial value.
 
