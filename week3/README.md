@@ -14,3 +14,7 @@ Block diagram
 riscv64-unknown-elf-gcc  -Ofast -mabi=lp64 -march=rv64i -o nav.o pill.c
 
 ```
+```
+spike pk nav.o
+
+```
