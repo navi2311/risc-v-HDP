@@ -51,7 +51,14 @@ spike pk nav.o
 user time is defined to dispense the pill
 <img width="748" alt="4_SPIKE" src="https://github.com/navi2311/risc-v-HDP/assets/134842758/4f04b241-20e6-450d-9ed3-645e74631da4">
 
+<img width="693" alt="5" src="https://github.com/navi2311/risc-v-HDP/assets/134842758/d9ab143c-322a-4b33-a6a9-fe78fb06cddf">
 
-<img width="1052" alt="7" src="https://github.com/navi2311/risc-v-HDP/assets/134842758/b831d3b0-2051-4484-9f26-02b9ccd983a9">
+
+
+<img width="559" alt="6" src="https://github.com/navi2311/risc-v-HDP/assets/134842758/d5065dd1-fb9c-4cf5-bf12-fac7019b3ea8">
+
+<img width="1052" alt="7" src="https://github.com/navi2311/risc-v-HDP/assets/134842758/627c9c92-ba92-4264-a7da-9bda89c61da4">
+
+
 
 
