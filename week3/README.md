@@ -29,7 +29,7 @@ Block diagram
 gcc pill.c
 ```
 
-[result](<img width="1202" alt="pill_gcc_1" src="https://github.com/navi2311/risc-v-HDP/assets/134842758/fad215cd-ade8-416d-83da-2e67299bad07">)
+(<img width="1202" alt="pill_gcc_1" src="https://github.com/navi2311/risc-v-HDP/assets/134842758/fad215cd-ade8-416d-83da-2e67299bad07">)
 
 ```
 
