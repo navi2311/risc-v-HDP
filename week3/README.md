@@ -31,10 +31,12 @@ gcc pill.c
 <img width="1202" alt="pill_gcc_1" src="https://github.com/navi2311/risc-v-HDP/assets/134842758/fad215cd-ade8-416d-83da-2e67299bad07">
 
 
-when user do not take pill
-<img width="537" alt="2" src="https://github.com/navi2311/risc-v-HDP/assets/134842758/4f48218d-fdc5-4259-b901-bf81b4380009">
-when user takes the pill
-<img width="824" alt="3" src="https://github.com/navi2311/risc-v-HDP/assets/134842758/0222791d-1799-4b73-9aa5-6e94b8a73187">
+1. when user do not take pill
+   <img width="537" alt="2" src="https://github.com/navi2311/risc-v-HDP/assets/134842758/4f48218d-fdc5-4259-b901-bf81b4380009">
+
+
+2. when user takes the pill
+   <img width="824" alt="3" src="https://github.com/navi2311/risc-v-HDP/assets/134842758/0222791d-1799-4b73-9aa5-6e94b8a73187">
 
 ## riscv 
 ```
