@@ -3,7 +3,21 @@
 
 A smart pill dispenser is a device designed to help individuals manage their medication schedules more effectively.
 
+The functionality of the provided application revolves around a timer-controlled system with a buzzer and a dispensing mechanism, likely designed for medication reminders or similar timed events. Here's a breakdown of its functionality:
 
+1. **Input Initial Time**: The program starts by prompting the user to input the initial time in the format of hours:minutes:seconds. This sets the countdown timer's initial value.
+
+2. **Countdown Timer**: Once the initial time is set, the program enters a loop where it continuously counts down from the initial time until it reaches zero. It decrements the time by one second at a time and displays the remaining time in HH:MM:SS format.
+
+3. **Buzzer Control**: At 5 seconds remaining on the countdown timer, the buzzer is turned on to alert the user. The buzzer remains on until the countdown timer reaches zero.
+
+4. **Pill Dispensing**: When the countdown timer reaches zero, indicating the end of the set time period, a message is displayed indicating that a pill is dispensed into the box. This step assumes a physical mechanism for dispensing pills.
+
+5. **Button Input Handling**: After the countdown timer reaches zero, the program waits for the user to interact with a button. If the button is pressed, the countdown timer is reset to the initial time, allowing the process to start again. This functionality is looped, allowing the user to reset the timer as needed.
+
+6. **Looping Functionality**: The program continuously loops through the countdown process, allowing the user to set the timer repeatedly by pressing the button after each countdown cycle.
+
+Overall, the application provides a basic timer-controlled system with buzzer alerts and a manual reset mechanism, suitable for scenarios where timed events or reminders, such as medication dosages, need to be managed.
 ```
 Block diagram 
 ```
