@@ -22,5 +22,9 @@ The Product Based RISC-V Skilling Program is a  six-week course that embarks on 
   3. coverted c porgrams using riscv gcc complier and cal the performace
 
   ## [week3](week3)
-  1. Application in c program
+  1. Application in c program-pill dispenser.
+  2. tested the functionality of app using riscv toolchain.
+
+## [Week4](week4)
+1.In these week we will control the gpio register to mainpluate the senor data 
   
