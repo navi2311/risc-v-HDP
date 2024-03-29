@@ -22,9 +22,10 @@ Overall, the application provides a basic timer-controlled system with buzzer al
 Block diagram 
 ```
 
-
+[The pill](pill.c) aspplication is writen in c programming
 
 ```
+
 riscv64-unknown-elf-gcc  -Ofast -mabi=lp64 -march=rv64i -o nav.o pill.c
 
 ```
