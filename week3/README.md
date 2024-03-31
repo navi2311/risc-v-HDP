@@ -1,5 +1,44 @@
 ##  A smart pill dispenser 
+```
+Start
 
+Input initial time (hours, minutes, seconds)
+
+While True:
+|
+|--- Set timer to initial time
+|
+|--- Reset buzzer state and button status
+|
+|--- While timer is not zero:
+|    |
+|    |--- Display current time
+|    |
+|    |--- If timer is at 5 seconds:
+|    |    |
+|    |    |--- Turn on buzzer
+|    |
+|    |--- Delay for approximately 1 second
+|    |
+|    |--- Decrement time
+|
+|--- Dispense pill
+|
+|--- While button is not pressed:
+|    |
+|    |--- Read button status
+|
+|--- If button is pressed:
+|    |
+|    |--- Turn off buzzer
+|    |
+|    |--- Delay
+|    
+|--- Restart loop
+
+End
+
+```
 
 A smart pill dispenser is a device designed to help individuals manage their medication schedules more effectively.
 
