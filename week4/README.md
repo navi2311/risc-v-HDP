@@ -4,3 +4,6 @@ In week 4, i have  learned about interacting with hardware components using low-
 
 
 Note:changed user defined time to 5 min.for initial.once i checked all other hardware interface i will add an interface to the user to set the time.
+
+<img width="814" alt="9)pill_test" src="https://github.com/navi2311/risc-v-HDP/assets/134842758/7e74625d-ff65-4036-82c3-c4651da9397a">
+
