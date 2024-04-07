@@ -7,3 +7,50 @@ Note:changed user defined time to 5 min.for initial.once i checked all other har
 
 <img width="814" alt="9)pill_test" src="https://github.com/navi2311/risc-v-HDP/assets/134842758/7e74625d-ff65-4036-82c3-c4651da9397a">
 
+
+
+```
+Number of different instructions:
+List of unique instructions:
+sllw
+li
+sext.w
+add
+srli
+blez
+lui
+addi
+j
+sub
+jal
+bgtz
+bne
+lbu
+beq
+addiw
+ret
+srai
+or
+and
+jr
+lw
+bgeu
+sd
+sw
+sb
+blt
+bltu
+jalr
+xori
+andi
+mv
+slli
+ecall
+bnez
+ld
+beqz
+bge
+auipc
+bltz
+negw
+```
