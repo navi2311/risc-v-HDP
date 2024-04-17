@@ -71,43 +71,6 @@ write_verilog output.v:
 
 
 
-```
-* The write_verilog command in Yosys is used to write the synthesized or modified Verilog netlist to a file.
-  <img width="364" alt="4" src="https://github.com/navi2311/risc-v-HDP/assets/134842758/ef56b358-6ada-49e6-896f-53fba7c04b99">
-```
-abc -liberty sky130_fd_sc_hd__tt_025C_1v80_256.lib:
-```
-* This command performs technology mapping using ABC with the specified Liberty library.
-* ABC maps the design to the target standard cell library, optimizing it for the specified technology.
-  <img width="648" alt="5" src="https://github.com/navi2311/risc-v-HDP/assets/134842758/7c6a803d-ead5-484a-810c-939177990f96">
-
-```
-dfflibmap -liberty sky130_fd_sc_hd__tt_025C_1v80_256.lib:
-```
-* This command performs D flip-flop mapping using the specified Liberty library.
-* It replaces generic flip-flops with library-specific flip-flops to ensure correct functionality and timing.
-  <img width="826" alt="6" src="https://github.com/navi2311/risc-v-HDP/assets/134842758/a141c1c3-884a-4f49-9629-bd8aae47fe24">
-
-```
-write_verilog output.v:
-
-```
-* This command writes the final netlist after D flip-flop mapping to a Verilog file named output.v.
-* The output.v file contains the final synthesized and mapped netlist suitable for further verification, simulation, or implementation.
-<img width="740" alt="7" src="https://github.com/navi2311/risc-v-HDP/assets/134842758/4ce8cd30-e16b-458a-bc87-08277764849d">
-
-```
-
-```
-
-<img width="1193" alt="8" src="https://github.com/navi2311/risc-v-HDP/assets/134842758/96ef7d28-43e2-4d91-a065-39556aefddab">
-
-
-  
-
-
-
-
 
 
 
