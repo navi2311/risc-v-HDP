@@ -47,6 +47,7 @@ dfflibmap -liberty sky130_fd_sc_hd__tt_025C_1v80_256.lib:
 
 ```
 write_verilog output.v:
+
 ```
 * This command writes the final netlist after D flip-flop mapping to a Verilog file named output.v.
 * The output.v file contains the final synthesized and mapped netlist suitable for further verification, simulation, or implementation.
