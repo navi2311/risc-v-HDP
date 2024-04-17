@@ -25,9 +25,11 @@ The Product Based RISC-V Skilling Program is a  six-week course that embarks on 
   2. tested the functionality of app using riscv toolchain.
 
 ## [Week4](week4)
-1.In these week we will control the gpio register to mainpluate the senor data 
+1. In these week we will control the gpio register to mainpluate the senor data 
+2. generate a custom based riscv using [chipcron](https://chipcron-pvt-ltd.github.io/webpage/index.html)
 
 ## [WEEK5](WEEK5)
+1. verilog simulation and verification of riscv.
 
 ## [week6](week6)
 1.   bypassing uart
