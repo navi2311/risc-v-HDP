@@ -17,7 +17,6 @@ Open your `testbench.v` file and locate the UART instruction block. Comment out 
 ```
 iverilog -o out testbench.v processor.v
 vvp out
-
 ```
 
 
