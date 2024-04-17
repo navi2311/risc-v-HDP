@@ -6,6 +6,7 @@
 **synthesis**
   used Yosys by following the [github repo](https://github.com/BhattSoham/RISCV-HDP/tree/main/week6) of soham and installed the tool in virtual machine.
   
+  
  ```
 read_liberty -lib sky130_fd_sc_hd__tt_025C_1v80_256.lib
 ```
@@ -24,6 +25,9 @@ synth -top wrapper
 * The synth -top wrapper command in Yosys instructs Yosys to perform synthesis on the Verilog design and treat wrapper as the top-level module for synthesis.
 * [synthesis output](synthesis_output.txt)contains Netlist,Timing Reports,Area Reports,Power Reports,Constraints and SDC Files,Warnings and Errors,Technology-specific Information(Library cell details
 Physical design rules),hierachy,cell mapping,black box modules.
+```
+yosys -p "read_verilog processor.v; synth -top wrapper" | tee synthesis_output.txt
+```
 <img width="673" alt="3" src="https://github.com/navi2311/risc-v-HDP/assets/134842758/ae26db0b-a880-4a17-b776-e06b7ce410e8">
 
 ```
@@ -55,6 +59,12 @@ write_verilog output.v:
 * This command writes the final netlist after D flip-flop mapping to a Verilog file named output.v.
 * The output.v file contains the final synthesized and mapped netlist suitable for further verification, simulation, or implementation.
 <img width="740" alt="7" src="https://github.com/navi2311/risc-v-HDP/assets/134842758/4ce8cd30-e16b-458a-bc87-08277764849d">
+
+```
+
+```
+<img width="1161" alt="Show_wrapper" src="https://github.com/navi2311/risc-v-HDP/assets/134842758/770a2db7-a0e5-4e69-940b-b8d17a3cbc93">
+
 
 ```
 iverilog -o final_test testbench.v output.v sky130_sram_1kbyte_1rw1r_32x256_8.v sky130_fd_sc_hd.v primitives.v
