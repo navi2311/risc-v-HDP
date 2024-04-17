@@ -30,14 +30,11 @@ Physical design rules),hierachy,cell mapping,black box modules.
 write_verilog test_output.v
 ```
 
-
-
-
 * The write_verilog command in Yosys is used to write the synthesized or modified Verilog netlist to a file.
   <img width="364" alt="4" src="https://github.com/navi2311/risc-v-HDP/assets/134842758/ef56b358-6ada-49e6-896f-53fba7c04b99">
 
 
-
+```
 abc -liberty sky130_fd_sc_hd__tt_025C_1v80_256.lib:
 ```
 * This command performs technology mapping using ABC with the specified Liberty library.
