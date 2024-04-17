@@ -10,44 +10,28 @@ Note:changed user defined time to 5 min.for initial.once i checked all other har
 
 
 ```
-Number of different instructions:
+Number of different instructions:20
 List of unique instructions:
+and
+jal
+li
+lui
+bne
+ret
 addi
 nop
-sub
-xori
-and
-blt
-li
-beqz
-bgtz
-lw
-srai
-lbu
-sw
-blez
-slli
-bnez
-srli
-bgeu
-sll
-neg
-sb
-bltu
-jalr
-j
-auipc
-ret
-lui
-jr
-bltz
-mv
-jal
-bne
-beq
-or
 andi
-add
-ecall
+bgtz
+xori
+lw
+or
+j
+blt
+bnez
+blez
+sw
+mv
+srli
+
 
 ```
