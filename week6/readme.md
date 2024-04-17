@@ -22,8 +22,17 @@ read_verilog processor.v
 synth -top wrapper
 ```
 * The synth -top wrapper command in Yosys instructs Yosys to perform synthesis on the Verilog design and treat wrapper as the top-level module for synthesis.
-* [synthesis output](synthesis_output.txt)contains
-  
+* [synthesis output](synthesis_output.txt)contains Netlist,Timing Reports,Area Reports,Power Reports,Constraints and SDC Files,Warnings and Errors,Technology-specific Information(Library cell details
+Physical design rules),hierachy,cell mapping,black box modules.
+<img width="673" alt="3" src="https://github.com/navi2311/risc-v-HDP/assets/134842758/ae26db0b-a880-4a17-b776-e06b7ce410e8">
+
+
+
+
+
+
+
+
 
   
 
