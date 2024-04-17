@@ -18,5 +18,11 @@ read_verilog processor.v
 * the `read_verilog` command is used to read and parse Verilog files into the Yosys internal representation.
 <img width="819" alt="2" src="https://github.com/navi2311/risc-v-HDP/assets/134842758/93bf1fbf-b055-4443-ab2a-fc617cdad7ca">
 
+```
+synth -top wrapper
+```
+* The synth -top wrapper command in Yosys instructs Yosys to perform synthesis on the Verilog design and treat wrapper as the top-level module for synthesis.
+  
+
   
 
