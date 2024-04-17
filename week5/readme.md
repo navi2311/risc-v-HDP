@@ -21,5 +21,7 @@ vvp pill_v
 **RESULT**:
 
 <img width="788" alt="RESULT1" src="https://github.com/navi2311/risc-v-HDP/assets/134842758/93354628-e1b8-4c76-b0ed-45329d8a88c7">
+<img width="790" alt="result2" src="https://github.com/navi2311/risc-v-HDP/assets/134842758/8b076a59-297a-4ff3-9f54-5d33052e3dc0">
+
 
 
