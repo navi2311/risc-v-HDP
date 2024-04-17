@@ -25,6 +25,28 @@ synth -top wrapper
 * [synthesis output](synthesis_output.txt)contains Netlist,Timing Reports,Area Reports,Power Reports,Constraints and SDC Files,Warnings and Errors,Technology-specific Information(Library cell details
 Physical design rules),hierachy,cell mapping,black box modules.
 <img width="673" alt="3" src="https://github.com/navi2311/risc-v-HDP/assets/134842758/ae26db0b-a880-4a17-b776-e06b7ce410e8">
+```
+write_verilog test_output.v
+
+```
+* The write_verilog command in Yosys is used to write the synthesized or modified Verilog netlist to a file.
+  <img width="364" alt="4" src="https://github.com/navi2311/risc-v-HDP/assets/134842758/ef56b358-6ada-49e6-896f-53fba7c04b99">
+```
+abc -liberty sky130_fd_sc_hd__tt_025C_1v80_256.lib:
+```
+* This command performs technology mapping using ABC with the specified Liberty library.
+* ABC maps the design to the target standard cell library, optimizing it for the specified technology.
+```
+dfflibmap -liberty sky130_fd_sc_hd__tt_025C_1v80_256.lib:
+```
+* This command performs D flip-flop mapping using the specified Liberty library.
+* It replaces generic flip-flops with library-specific flip-flops to ensure correct functionality and timing.
+```
+write_verilog output.v:
+```
+* This command writes the final netlist after D flip-flop mapping to a Verilog file named output.v.
+* The output.v file contains the final synthesized and mapped netlist suitable for further verification, simulation, or implementation.
+
 
 
 
