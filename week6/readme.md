@@ -57,7 +57,7 @@ write_verilog output.v:
 <img width="740" alt="7" src="https://github.com/navi2311/risc-v-HDP/assets/134842758/4ce8cd30-e16b-458a-bc87-08277764849d">
 
 ```
-
+iverilog -o final_test testbench.v output.v sky130_sram_1kbyte_1rw1r_32x256_8.v sky130_fd_sc_hd.v primitives.v
 ```
 
 <img width="1193" alt="8" src="https://github.com/navi2311/risc-v-HDP/assets/134842758/96ef7d28-43e2-4d91-a065-39556aefddab">
