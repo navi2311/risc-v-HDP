@@ -7,9 +7,16 @@ Note:changed user defined time to 5 min.for initial.once i checked all other har
 
 <img width="814" alt="9)pill_test" src="https://github.com/navi2311/risc-v-HDP/assets/134842758/7e74625d-ff65-4036-82c3-c4651da9397a">
 
-
-
 ```
+riscv64-unknown-elf-gcc -march=rv32i -mabi=ilp32 -ffreestanding -nostdlib  -o out pill.c
+riscv64-unknown-elf-objdump -d  -r out > ass.txt
+```
+python scrpit to check unique instructions
+```
+python3 script.py
+```
+```
+
 Number of different instructions:20
 List of unique instructions:
 and
