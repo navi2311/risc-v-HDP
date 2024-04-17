@@ -9,7 +9,11 @@ This week, we focused on developing a Custom RISC-V core tailored to run PILL ap
 
  **Processor Core and Testbench Generation**:
     - Generated the processor core along with the testbench using the chipron processor code generated from `all.json`.
-
+**verilog syntax**:
+```
+iverilog -o pill_v testbench.v processor.v
+vvp pill_v
+```
 
 
 
