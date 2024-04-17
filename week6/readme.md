@@ -8,11 +8,11 @@ To bypass UART in the testbench, you need to comment out the UART instruction bl
 
 Open your `testbench.v` file and locate the UART instruction block. Comment out the block as shown below:
 
-```verilog
+```
 /* @(posedge slow_clk);write_instruction(32'h00000000); 
    ... (all other UART instructions)
    @(posedge slow_clk);write_instruction(32'hffffffff); */
-
+```
 ## Step 2: running simulation in iverilog
 ```
 iverilog -o out testbench.v processor.v
